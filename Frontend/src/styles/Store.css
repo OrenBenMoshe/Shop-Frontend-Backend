@@ -1,0 +1,65 @@
+.store {
+  max-width: 1500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.filter-icon{
+  position: relative;
+  width: 100px;
+  height: 70px;
+  /* background-color: aqua; */
+  margin-left: 50px;
+  background-image: url("../images/edit.png");
+  background-size: 50px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.filter-icon:hover{
+  cursor: pointer;
+}
+
+.filter-choice{
+  width: 0px;
+  height: 0px;
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+  overflow: hidden;
+  transition: 400ms;
+  font-size: 1.5rem;
+  border-radius: 7px;
+}
+
+.active-filter{
+  width: 250px;
+  height: 200px;
+}
+
+label{
+  margin-left: 5px;
+}
+
+div > input{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+div > input:hover{
+  cursor: pointer;
+}
+
+div > label:hover{
+  cursor: pointer;
+}

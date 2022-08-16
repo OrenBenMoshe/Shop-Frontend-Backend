@@ -1,0 +1,173 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  margin-top: 0px;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+
+.nav-item {
+  position: relative;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #ffd365;
+  cursor: pointer;
+}
+
+.logo {
+  color: #f2f2f2;
+  margin-right: 500px;
+  padding: 14px 16px;
+  height: 30px;
+}
+
+.logo:hover {
+  border-bottom: 2px solid #ffd365;
+  cursor: pointer;
+}
+
+.nav-links {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.cart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logout{
+  background-color: black;
+  position: absolute;
+  top: 65px;
+  right: -15px;
+  width: 0px;
+  height: 0px;
+  align-items: center;
+  padding-top: 20px;
+  transition: 400ms;
+  overflow: hidden;
+}
+
+.show-logout > button{
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 30px;
+  /* margin-left: 10px; */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-active{
+  width: 100px;
+  height: 50px;
+}
+
+.user{
+  margin-top: -5px;
+  margin-right: 100px;
+  height: 35px;
+}
+
+.search {
+  /* width: 600px;
+  height: 100px;
+  background-color: aqua;
+  margin-top: 50px; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.search:hover{
+  border-bottom: 2px solid #ffd365;
+}
+
+.icon-search {
+  font-size: 1.6rem;
+  border-radius: 200px;
+  width: 55px;
+  height: 40px;
+  transition: 2s;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.icon-search > input {
+  border-radius: 60px;
+  width: 200px;
+  height: 30px;
+  font-size: 1.5rem;
+  border: none;
+  margin-right: 10px;
+  margin-left: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-indent: 15px;
+}
+
+.icon-search > input:focus {
+  outline: none;
+}
+
+.search-icon {
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  color: white;
+}
+
+.active-search {
+  width: 280px;
+  border: 2px solid black;
+}
+
+.search-box {
+  height: 150px;
+  background-color: black;
+  color: white;
+  width: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  padding: 7px;
+}
+
+.search-box > div {
+  cursor: pointer;
+}
+
+.search-item{
+  margin: 7px;
+}
+
+.search-item:hover{
+  color: #ffd365;
+}

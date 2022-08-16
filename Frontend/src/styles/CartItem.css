@@ -1,0 +1,70 @@
+.cart-item {
+  position: relative;
+  display: flex;
+  margin: 10px 0;
+  background-color: #dfd8ca;
+  border-radius: 5px;
+  color: black;
+}
+
+.cart-item-image {
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 90px;
+  max-height: 90px;
+  border-radius: 5px;
+}
+
+ul > li {
+  font-size: 1.5rem;
+  list-style: none;
+  max-width: 350px;
+}
+
+.add-and-remove {
+  position: absolute;
+  left: 550px;
+  bottom: 55px;
+  font-size: 1.8rem;
+  width: 150px;
+}
+
+.add {
+  background-color: #070769;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.add:hover {
+  background-color: white;
+  color: rgb(7, 7, 105);
+}
+
+.subtract {
+  background-color: #810d0d;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.subtract:hover {
+  background-color: white;
+  color: rgb(129, 13, 13);
+}
+
+.button-group > button {
+  height: 40px;
+  width: 40px;
+  font-size: 2rem;
+  color: white;
+}
+
+.button-group > button:hover {
+  cursor: pointer;
+}

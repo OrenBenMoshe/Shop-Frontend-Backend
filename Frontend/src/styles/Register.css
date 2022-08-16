@@ -1,0 +1,32 @@
+.confirm-password {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .confirm-password > input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-indent: 5px;
+  }
+  
+  .confirm-password > label{
+    font-size: 2rem;
+  }
+
+  .unique-name{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.valid-username{
+  margin-top: 30px;
+  font-size: 1.5rem;
+  background-color: purple;
+  border-radius: 5px;
+  padding: 10px;
+}
